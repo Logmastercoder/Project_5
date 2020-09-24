@@ -52,10 +52,4 @@ validateButton.addEventListener('click', (event) => {
                     displayOrderInformation();
                 })
             });
-
-    function clearCart() {
-        localStorage.removeItem('productsInCart');
-        localStorage.removeItem('cartPrice');
-    }
-    clearCart();
 });
